@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UPod40ImlxNSwSll0UxFbQXWSL9NcAEgnF9sYl2egfHY7zt2nj_nt9O2MHSXlGi3F88&usqp=CAU">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tanishka Portfolio</title>
 </head>
 <body>
-	<h1>Bye World</h1>
+    <!-- div starts from here -->
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><span class="brand rotate-center tracking-in-expand flip-scale-down-hor">Tanishka</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home"><span class="navmenu">Home</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#project"><span class="navmenu">Projects</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contacts"><span class="navmenu">Contacts</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- div ends here -->
+    <!-- section start from here -->
+    <div class="section-cont">
+        <section class="portfolio-section" id="home">
+            <div id="home-info">
+                <span class="info hi">Hi,</span><br/>
+                <span class="info">My name is</span>
+                <span class="brand myname">Tanishka</span><br/>
+                <span class="info">I am<span class="designation"> Full stack Developer </span></span></br>
+                <button class="rsmbtn">RESUME</button><br/>
+                <a href="https://www.linkedin.com/in/nisarga-fasage" class="fa fa-linkedin linkdin"></a>
+                <a href="https://github.com/nisargafasage" class="fa fa-github github"></a>
+            </div>
+        </section>
+        <section class="portfolio-section about-section" id="about">
+            <div class="aboutmain">
+                <div class="myimage">
+                    <img class="minion kenburns-button" src="https://cdni.iconscout.com/illustration/premium/thumb/woman-programmer-working-on-a-new-project-7771248-6200254.png?f=webp">
+                </div>
+                <div class="carrerobj">
+                    <h1 class="heading">ABOUT</h1>
+                    <p class="carrerinfo">
+                        To get an opportunity where I can make the best of my potential and contribute to the company growth. I’m looking forward to working as a software engineer in a multinational corporation and meeting worldwide clientele.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section skills-section" id="skills">
+            <h1 class="heading">SKILLS</h1>
+            <table class="tbl" height="450" width="90%" cellspacing="50px">
+                <tr align="center" valign="top">
+                    <div class="borderskills">
+                        <td width="50%" data-aos="slide-right" >
+                            <h2 class="skills-subheading">Languages</h2>
+                            <p class="detailedSkills">
+                                Core Java, HTML, CSS, SQL
+                            </p>
+                        </td>
+                    </div>
+                    <div class="borderskills">
+                        <td width="50%" data-aos="slide-left">
+                            <h2 class="skills-subheading">API's & Frameworkd</h2>
+                            <p class="detailedSkills">
+                                Collections, Rest API
+                            </p>
+                        </td>
+                    </div>
+                </tr>
+                <tr align="center" valign="top">
+                    <div class="borderskills">
+                        <td data-aos="slide-right">
+                            <h2 class="skills-subheading">Tools</h2>
+                            <p class="detailedSkills">
+                                VS Code, GitHub, MySQL, IntelliJ
+                            </p>
+                        </td>
+                    </div>
+                    <div class="borderskills">
+                        <td data-aos="slide-left">
+                            <h2 class="skills-subheading">Operating Systems</h2>
+                            <p class="detailedSkills">
+                                Windows, Android, iOS
+                            </p>
+                        </td>
+                    </div>
+                </tr>
+            </table>
+        </section>
+        <section class="portfolio-section" id="project">
+            <h1 class="heading">PROJECTS</h1>
+            <div class="project-card-container">
+  <div class="card-deck">
+  <div class="card">
+    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/smart-dustbin-3421191-2866447.png?f=webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">SMART DUSTBIN</h5>
+      <p class="card-text">It is an IOT based project based on waste segregation.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://3.imimg.com/data3/MU/DM/MY-9763253/student-management-system-500x500.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Student System Management</h5>
+      <p class="card-text">Management system to handel the college activies and collecting funds.</p>
+    </div>
+
+  </div>
+  <div class="card">
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-calculator-1859951-1575939.png?f=webp&w=256" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CALCULATOR</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+   https://3.imimg.com/data3/MU/DM/MY-9763253/student-management-system-500x500.png
+  </div>
+</div>
+</div>
+        </section>
+        <section class="portfolio-section" id="contacts">
+            <h1 class="heading">CONTACTS</h1>
+
+                <div class="main-comtainer">
+                    <div class="contact-chil">
+                        <ul class="contact-info" type="none">
+                            <li>tanishkapawar6@gmail.com</li>
+                            <li>9370647689</li>
+                    <li><a href="https://www.linkedin.com/in/nisarga-fasage" >LinkedIn</a></li>
+                    <li> <a href="https://github.com/nisargafasage">GitHub</a></li>
+                    <li>Pune, Maharashtra</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-child ">
+                        <form>
+                            <div class="contact-form">
+                           <label for="exampleInputEmail1" >Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                          <label for="exampleInputPassword1">Comment</label>
+                          <textarea class="form-control" id="exampleInputPassword1"></textarea></br>
+                       
+                       
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label></br></br>
+                     
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+             </section>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+             duration: 2000
+            });
+        </script>
+         <footer id="footer">
+                    <h1 id="footer-info">MADE BY ©TANISHKA 2024</h1>
+                </footer>
+
 </body>
 </html>
